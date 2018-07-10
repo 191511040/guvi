@@ -1,10 +1,6 @@
-if (year % 4) == 0:
-   if (year % 100) == 0:
-       if (year % 400) == 0:
-           print(" Is a leap year".)
-       else:
-           print("{0} is not a leap year".)
-   else:
-       print(" Is a leap year")
+u=raw_input()
+v=int(u)
+if (v%4)==0 and (v%100)!=0:
+	print("leap year")
 else:
-   print(" Not a leap year")
+	print("not a leap year")
