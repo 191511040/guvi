@@ -1,4 +1,5 @@
-a=int(input("Enter number:"))
+print("Enter number:")
+a=raw_input()
 count=0
 while(a>0):
     count=count+1
