@@ -1,12 +1,12 @@
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
  
-if (num1 > num2) and (num1 > num3):
-   largest = num1
-elif (num2 > num1) and (num2 > num3):
-   largest = num2
+if (a > b) and (a > c):
+   largest = a
+elif (b > a) and (b > c):
+   largest = b
 else:
-   largest = num3
+   largest = c
  
 print("The largest number is",largest)
