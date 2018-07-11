@@ -1,12 +1,14 @@
-a = float(input("Enter first number"))
-b = float(input("Enter second number "))
-c = float(input("Enter third number "))
- 
-if (a > b) and (a > c):
-   largest = a
-elif (b > a) and (b > c):
-   largest = b
+u=raw_input()
+v=raw_input()
+w=raw_input()
+a=int(u)
+b=int(v)
+c=int(w)
+if((a>=b) and (a>=c)):
+   print a
+elif(b>=a) and (b>=c):
+	print b
+elif(c>=a) and (c>=b):	
+  print c
 else:
-   largest = c
- 
-print("The largest number is",largest)
+   print("no it is not a alphabet") 
