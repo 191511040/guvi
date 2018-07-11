@@ -1,10 +1,10 @@
-N=raw_input()
-if N.isalpha():
+a=raw_input()
+if a.isalpha():
  print("invalid")
 else:
-  N=int(N)
+  a=int(a)
   count=0
-    while N!=0:
-      N=int(N/10)
+    while a!=0:
+      a=int(a/10)
       count=count+1
    print(count)
