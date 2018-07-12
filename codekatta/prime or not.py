@@ -1,8 +1,8 @@
-num = int(input())  
+a = int(input())  
   
-if num > 1:  
-   for i in range(2,num):  
-       if (num % i) == 0:  
+if a > 1:  
+   for i in range(2,a):  
+       if (a % i) == 0:  
            print("no")  
            
            break  
