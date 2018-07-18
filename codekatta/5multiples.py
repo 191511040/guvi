@@ -1,3 +1,4 @@
-a=input()
-for a in range(1,6):
-    print(a*5)
+a=int(input())
+b=int(input())
+for i in range(1,a):
+    print(i*b)
