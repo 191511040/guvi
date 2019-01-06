@@ -2,7 +2,7 @@
 
 int main()
 {
-  int a,b,i,c[20],d[20],j;
+  int a,b,i,c[20],d[20],j,count=0;
   scanf("%d%d",&a,&b);
   
   for(i=0;i<a;i++)
@@ -16,10 +16,14 @@ int main()
   }
   if(c[i]==d[j])
   {
-      printf("yes");
+      count++;
+  }
+  if(count>0)
+  {
+    printf("yes");
   }
   else
   {
-      printf("NO");
+    printf("No");
   }
 }
