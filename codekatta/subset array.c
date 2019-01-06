@@ -20,10 +20,10 @@ int main()
   }
   if(count>0)
   {
-    printf("yes");
+    printf("NO");
   }
   else
   {
-    printf("No");
+    printf("YES");
   }
 }
