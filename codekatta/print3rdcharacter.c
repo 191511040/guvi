@@ -10,3 +10,4 @@ int main()
     {
         printf("%c",a[i]);
     }
+}
