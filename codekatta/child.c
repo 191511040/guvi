@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-	int n,a[100],i,j,d[100],ka=0;
+	int n,a[100],i,d[100],ka=0;
 scanf("%d",&n);
 	d[0]=0;
 	for(i=0;i<n;i++)
@@ -16,3 +16,4 @@ scanf("%d",&n);
 	for(i=0;i<n;i++)
 	ka+=d[i];
 	printf("%d",ka);
+}
