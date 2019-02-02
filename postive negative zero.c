@@ -7,13 +7,15 @@
 #include <stdbool.h>
 
 
-int main() {
+int main() 
+{
     int k,i,j,a[100]; 
     scanf("%d", &k);
-    for(i = 0; i < k; i++){
+    for(i = 0; i < k; i++)
+    {
 	
        scanf("%d",&a[i]);
-}
+     }
 
     for(i = 0; i < k; i++)
 	{
@@ -24,3 +26,4 @@ int main() {
 			break;
 		}
 	}
+}
