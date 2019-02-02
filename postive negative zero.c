@@ -6,9 +6,10 @@
 #include <limits.h>
 #include <stdbool.h>
 
+
 int main() {
-    int k,i,j,a[100],c[100],k,f=0,p=0; 
-    scanf("%d", &n);
+    int k,i,j,a[100]; 
+    scanf("%d", &k);
     for(i = 0; i < k; i++){
 	
        scanf("%d",&a[i]);
@@ -23,5 +24,3 @@ int main() {
 			break;
 		}
 	}
-	
-}
